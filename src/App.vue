@@ -41,9 +41,6 @@
 				</div>
 
 				<div class="w-full h-16 flex items-center justify-center text-gray-500 text-sm">
-					<a :href="repoLink" target="_blank" class="underline">
-						{{ repoName }}
-					</a>
 				</div>
 			</el-scrollbar>
 		</div>
@@ -58,7 +55,7 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
 const repoLink = 'https://roim.app'
 const repoName = 'roim-picx'
-const appName = 'PICX'
+const appName = '私有图床'
 
 document.title = appName
 
